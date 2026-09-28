@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Телеграм-сесії (містять токен доступу — не комітити!)
+*.session
+*.session-journal
+
+# Конфіденційне
+.env
+
+# Результати парсингу та медіа
+output/
+*.log
